@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Young+Serif&display=swap');
+
+/* RESET CSS */
+*{ 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box
+}
+
+.root{
+    font-size: 16px;
+}
+
+/* BODY */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*FIN BODY */
+
+
+/* NAVEGACION */
+.header{
+    position: relative;
+    width: 100%
+}
+
+.navegacion .foto-navegacion{ 
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .navegacion {
+    font-weight: 900;  
+    background-color: #979797;
+    /* position: fixed; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.menu-item a  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu-item.active a,
+.menu-item a:hover {
+    text-decoration: underline;
+}
+.navegacion .navegacion-nav {
+    list-style-type: none;  
+    display:flex;
+    gap: 90px;
+
+}
+
+/* CIERRE NAVEGACION */
+
+
+/* TITULOS */
+h1 {
+    font-family:'Young Serif', serif;
+}
+
+/* NOTICIAS */
+.noticias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;  
+    grid-template-areas: 
+    "noticia-1 noticia-2"
+    "noticia-3 noticia-4";
+}
+
+.noticias a{
+    text-decoration:none;
+    color: #222222;
+}
+
+.noticias a:hover{
+    color:#979797;
+}
+.noticia-1{
+    grid-area:noticia-1 ;
+}
+.noticia-2{
+    grid-area:noticia-2;
+}
+.noticia-3{
+    grid-area:noticia-3;
+}
+.noticia-4{
+    grid-area:noticia-4;
+}
+
+.noticia-1, .noticia-2, .noticia-3, .noticia-4 {
+    text-align: center;
+    
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* FIN NOTICIAS */
+
+/* HISTORIA */
+
+
+
+
+
+/* FIN HISTORIA */
+
+
+
+/* DISCOGRAFIA */
+
+.discografia {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr); 
+    gap: 10px; 
+}
+/* please please me */
+.please-item {
+    text-align: center;
+}
+
+.link-please:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-please{
+    color: #222222;
+    text-decoration: underline ;
+}
+
+.please-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.please-item p {
+    margin: 0;
+}
+/* with the beatles */
+.with-item {
+    text-align: center;
+}
+
+.link-with:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-with{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.with-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.with-item p{
+    margin:0;
+}
+/* a hard days night */
+.hard-item{
+    text-align: center;
+}
+
+.link-hard:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-hard{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.hard-item img{
+    max-width: 100%;
+    height: auto;
+}
+.hard-item p{
+    margin:0;
+}
+/* for sale */
+.for-item{
+    text-align: center;
+}
+
+.link-for:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-for{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.for-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.for-item p{
+    margin:0;
+}
+/* help */
+.help-item{
+    text-align: center;
+}
+
+.link-help:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-help{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.help-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.help-item p{
+    margin:0;
+}
+/* rubber soul */
+.rubber-item{
+    text-align: center;
+}
+
+.link-rubber:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-rubber{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.rubber-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.rubber-item p{
+    margin:0;
+}
+/* revolver */
+.revolver-item{
+    text-align: center;
+}
+
+.link-revolver:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-revolver{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.revolver-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.revolver-item p{
+    margin:0;
+}
+/* sgt peppers */
+.peppers-item{
+    text-align: center;
+}
+
+.link-peppers:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-peppers{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.peppers-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.peppers-item p{
+    margin:0;
+}
+/* magical mystery tour */
+.tour-item{
+    text-align: center;
+}
+
+.link-tour:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-tour{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.tour-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.tour-item p{
+    margin:0;
+}
+/* white album */
+.white-item{
+    text-align: center;
+}
+
+.link-white:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-white{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.white-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.white-item p{
+    margin:0;
+}
+/* yellow */
+.yellow-item{
+    text-align: center;
+}
+
+.link-yellow:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-yellow{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.yellow-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.yellow-item p{
+    margin:0;
+}
+/* abbey road */
+.abbey-item{
+    text-align: center;
+}
+
+.link-abbey:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-abbey{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.abbey-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.abbey-item p{
+    margin:0;
+}
+/* let it be */
+.let-item{
+    text-align: center;
+}
+
+.link-let:hover{
+    color: #515153;
+    opacity: .90;
+}
+
+.link-let{
+    text-decoration: underline;
+    color: #222222;
+}
+
+.let-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.let-item p{
+    margin:0;
+}
+
+.let-container{
+    display: flex;
+    
+}   
+
+.spotify{
+    
+}
+
+/*FIN DISCOGRAFIA */
+
+
+/* VIDEOS */
+
+
+/* FIN VIDEOS */
+
+
+/*CONTACTO*/
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.formulario {
+    grid-column: 1; 
+}
+
+.img-form {
+    grid-column: 2; 
+    text-align: right; 
+    
+}
+
+
+/* FIN CONTACTO */
+
+
+/*  FOOTER */
+
+footer {
+    background-color: #979797;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.redes-sociales {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size:large;
+    
+}
+
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media .icono-facebook a:hover{
+    color: blue;
+}
+
+.social-media .icono-twitter a:hover{
+    color: #00b9ff;
+}
+
+.social-media .icono-youtube a:hover{
+    color: red;
+}
+
+.social-media .icono-instagram a:hover{
+    color: #e95950 RGB 233, 89, 80;
+}
+
+
+
+
+footer p {
+    margin-top: 10px;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+.footer-info p {
+    margin: 1;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+
+
+
+/* FIN FOOTER */

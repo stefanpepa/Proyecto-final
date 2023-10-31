@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Beatlemania XXI</title>
+    <link rel="shortcut icon" href="./img/Favicon.jpg" type="image/x-icon">
+</head>
+<body>    
+<!--HEADER-->
+<header>        
+<nav class="navegacion">        
+    <div class="foto-mover" >
+        <img class="foto-navegacion" src="./img/The-beatles-LOGO-NEGRO.png" alt="The beatles LOGO NEGRO" title="The beatles LOGO NEGRO"> 
+    </div>
+        <ul class="navegacion-nav">
+            <li class="menu-item">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="./historia.html">Historia</a>
+            </li>
+            <li class="menu-item">
+                <a href="./discografia.html">Discografía</a>
+            </li>
+            <li class="menu-item">
+                <a href="./videos.html">Videos</a>
+            </li>
+            <li class="menu-item active">
+                <a href="./contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!--FIN HEADER-->
+
+<!-- FORMULARIO -->
+<main>
+
+<h1>Contacto</h1>
+
+<div class="img-form">
+<img src="./img/Beatles-firmando.jpg" alt="Beatles firmando" title="Beatles firmando">
+</div>
+
+<div class="form-container">
+
+    <form class="formulario">
+    <label for="nombre">
+        Nombre
+        <input placeholder="Ingrese su nombre" type="name" id="nombre" required>
+    </label>
+    
+    <label for="apellido">
+        Apellido
+        <input placeholder="Ingrese su apellido" type="surname" id="apellido" required>
+    </label>
+    
+    <label for="edad">
+        Edad
+        <input placeholder="Ingrese su edad" type="number" id="edad" required>
+    </label>    
+    
+    <label for="email">
+        E-mail
+        <input placeholder="Ingrese su e-mail" type="email" id="email" required>
+    </label>
+    
+    <label for="mensaje">
+        Mensaje
+        <textarea name="" id="mensaje" cols="25 " rows="5"></textarea>
+    </label>
+    
+    <button type="submit">Enviar</button>
+    <button type="reset">Reset</button>
+</form>
+</div>
+</main>
+<!-- FIN FORMULARIO -->
+
+<!-- FOOTER  -->
+
+<footer>
+    <div class="redes-sociales">
+        <div class="social-media">
+            
+            <a href="https://www.facebook.com/thebeatles/?locale=es_LA" class="icono-facebook" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATpJREFUSEu1lYsNwjAMRI9NYBJgE5gEmASYBDYBNoFXJZGbOp8isISCmthn+y7OQn+2xZ/jqwdgI4nfOqxPSXdJr7Dyv2g1gKWkcwhaiwHgVhLrxEoAR0mHGe0j+FUSfiPzAHqDE5QqrZ1ykBwAh0clc4IS5GLO2ITY3wduhiM5wK3R85XT67xiQDg3AdgFUksFkDXZRaNafKK6rB+kD+qyFbR6b/vbSiadtQBIEseSkX3sfSsZsqeKUQWQm6vCgs0BSDzYCjyAEWGF0krCGGJbAO9gD4CXWBJEi+Q4BkjGjgLbSu/euAAMNKr4BcmJrzkXrZfkpCDvJtdGRS9AumQeAN9KGu8BaA672H8PpAVg9xOPcx6cEsBkglqV9DyZcahBXnweGSl8R47uS+ZN04pCv9/qqeD76B/PN4+GURm4OV6aAAAAAElFTkSuQmCC"/>Facebook</a>
+            
+            <a href="https://twitter.com/thebeatles" class="icono-twitter" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARBJREFUSEvlldENwjAMRK+bwCTAJMAkwCTAJMAksAnoVTFKUydNPvpVSxUtSXz23dXtNHN0M+fXcgG2kk6SVoHiu6RzeD6E+34ppegh6SjpU9CGBFdnnTMAcv5m6ynANyS3ijwc9uQCkKckzvM76AD0d3TyEiqJu8lVHwPuLHmOIvi1IDkXFRkFHj22H2qg6B8pRVQYi9f6mhQBUopak7N/IHANRa0g69SBKUV0gVXN360Ao8ngjQpE3ktCj5YY0eNRxH81VkyBcRj0jCI37HjtcVNtDLxfsmm8hg5m2xKQS40d8DowgelgSods5R5Ai4OYM1NDscfwbIqLNsGqsV0R8uXMp6JOy/2i1dp3/o/+D9mWMhnNBgLxAAAAAElFTkSuQmCC"/>Twitter</a>
+            
+            <a href="https://www.instagram.com/thebeatles/" class="icono-instagram" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWlJREFUSEvFlT1KQ1EQhb/U1vbai+IG/FlGwEJbwYArUHegonUiCPZuQN1ByAaMlYW9hY1yZObxmNx3vd4QMk3y8jJzzpnfHgu23oLjszSANeAQ2AX2Miqn9u4ZuAD8uXFJKVDgYUXqFPwOOG/7RgAxf60I7i4COQKk6NcigJhLwX9s39J4Zk4jA0kCiL1UpEyOb5Zn1UZExHjdvntaxV6gSYDvROS27FV7/2FEnuy5TcpBiwHE5gs4sK4SiRfgHnjvqFmT+liDqMDzeQscB3U3wAkgFbGViwHUEY/GeCMATIAta0sv8Ezq/1Kg4bk2lpsBYAxszwvgHXEFDALAJXBqQxlbuzhF3kGfQB/YMRAV+QFYMXWx+YoB5DgznRZNhfU2LQZIdYSDKF0aNFluCWYHrWZVRPbZVTHvshOYBrNz2ekPtetavpobKWis66JJiYZHn7mD4/XRHVDgooOT2Hf1Py3tJtdTDp4/ASdOGThG8zgAAAAASUVORK5CYII="/>Instagram</a>
+            
+            <a href="https://www.youtube.com/@TheBeatles" class="icono-youtube" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANBJREFUSEvtlesNwjAMhL9uQicBNimTwCbAJLAJ3YTqqloYCDhAIvGjlqpGkXVnnx9pqGxNZXxmglDhR4kWQAcsAZ1l9k+B9e5SZ31H4Gz3nmAFnMKQYgeRbIzEE+yn6GOI2EMZrOXmCS6BHDHszUNZtJ8SKCJl+a4mRpEkuAYhKltrgm1GOqM6XqIcAsPNIfpfgh3wlURRF/1cZA2Zhq2EJeegJMFhmua7LlJnSKYSJjnHfZRadiqgyHKWnTD8whPoy2VXIvInjPlFC2WtLtEAOrgkGaLy3nEAAAAASUVORK5CYII="/>YouTube</a>
+        </div>
+        <div class="footer-info"><p>&copy; 2023 The Beatles. Todos los derechos reservados.</p>
+        <p>Contacto: info@thebeatles.com</p>
+        </div>
+        <div class="footer-logo">
+            <img src="./img/The-beatles-LOGO-NEGRO.png" alt="Logo de The Beatles">
+        </div>
+        
+        
+
+    </div>
+</footer>
+
+<!-- FIN FOOTER -->
+
+</body>
+</html>
