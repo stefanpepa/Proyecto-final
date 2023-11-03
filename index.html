@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/js/bootstrap.js">
     <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
-    <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <title>Beatlemania XXI</title>
     <link rel="shortcut icon" href="./img/Favicon.jpg" type="image/x-icon">
@@ -13,14 +11,14 @@
 <body>
 <!--HEADER-->
 <header>        
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
       <a class="navbar-brand"><img class="foto-nav" src="./img/The-beatles-LOGO-NEGRO.png" alt="The beatles LOGO NEGRO" title="The beatles LOGO NEGRO"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+        <div class="navbar-nav ms-auto">
         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
         <a class="nav-link" href="./historia.html">Historia</a>
         <a class="nav-link" href="/discografia.html">Discografía</a>
@@ -37,54 +35,94 @@
 
 <!--CARROUSEL-->
 
-<div class="imagenes-carrousel">
-<section> 
-  <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-1.jpg" alt="THE BEATLES ETAPA 1" title="THE BEATLES ETAPA 1">
-  <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-2.jpg" alt="THE BEATLES ETAPA 2" title="THE BEATLES ETAPA 2">
-  <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-3.jpg" alt="THE BEATLES ETAPA 3" title="THE BEATLES ETAPA 3">
-  <img src=".//img/CARROUSEL/THE-BEATLES-ETAPA-4.jpeg" alt="THE BEATLES ETAPA 4" title="THE BEATLES ETAPA 4">
-  <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-5.jpg" alt="THE BEATLES ETAPA 5" title="THE BEATLES ETAPA 5">
-</section>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+    
+    
+    <div class="carousel-item active">
+      <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-4.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/CARROUSEL/THE-BEATLES-ETAPA-5.webp" class="d-block w-100" alt="...">
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+
+
 <!-- FIN CARROUSEL-->
+
+
+
 
 <!--NOTICIAS-->
 <main>
 <div class="noticias">
-<section>
-  <div class="noticia-1">
-  <img src="./img/NOTICIAS/Paul-con-camara.jpg" alt="Paul con camara 1" title="Paul con camara 1" class="foto-noticia1">
-    <div class="noticia-1text">
-  <h2>Las fotos perdidas de los Beatles</h2> 
-    <p> <a href="https://www.lanacion.com.ar/espectaculos/en-el-ojo-de-la-tormenta-las-fotos-perdidas-de-los-beatles-que-tomo-paul-mccartney-y-que-recupero-60-nid27012023/" target="_blank">Tomadas por Paul McCartney y recuperadas 60 años después.</a> </p>
-  </div>
-  </div>
 
-  <div class="noticia-2"> 
-  <img src="./img/NOTICIAS/BEATLES-GET-BACK-NOTICIA-2.avif" alt="BEATLES GET BACK NOTICIA 2" title="BEATLES GET BACK NOTICIA 2"class="foto-noticia2">
-  <div class="noticia-2text">
-  <h2>Get Back</h2>
-    <p> <a href="https://www.lanacion.com.ar/espectaculos/musica/get-back-cuales-son-las-canciones-que-los-beatles-aman-tocar-mientras-componen-algunos-de-sus-nid09122021/" target="_blank">Cuáles son las canciones que los Beatles aman tocar mientras componen algunos de sus grandes clásicos.</a> </p>
-  </div>
-  </div> 
 
-  <div class="noticia-3">
-    <img src="./img/NOTICIAS/BEATLES-NUEVA-CANCION-NOTICIA-3.webp" alt="BEATLES NUEVA CANCION NOTICIA 3" title="BEATLES NUEVA CANCION NOTICIA 3" class="foto-noticia3">
-    <div class="noticia-3text">
-    <h2>Paul McCartney lo deja claro</h2>
-    <p> <a href="https://www.clarin.com/espectaculos/musica/paul-mccartney-deja-claro-nueva-cancion-beatles-inteligencia-artificial-real_0_0XHXlIj1NP.html" target="_blank">"En la nueva canción de Los Beatles con inteligencia artificial todo es real"</a></p>
+<div class="card" style="width: 23rem;">
+  <img src="./img/NOTICIAS/Paul-con-camara.jpg" class="card-img-top" alt="Paul-con-camara" title="Paul-con-camara">
+  <div class="card-body">
+    <h4 class="card-title">Las fotos perdidas de los Beatles</h4>
+    <p class="card-text">Tomadas por Paul McCartney y recuperadas 60 años después.</p>
+    <a href="https://www.lanacion.com.ar/espectaculos/en-el-ojo-de-la-tormenta-las-fotos-perdidas-de-los-beatles-que-tomo-paul-mccartney-y-que-recupero-60-nid27012023/" target="_blank" class="btn btn-primary">Visitar</a>
   </div>
-  </div>
+</div>
 
-  <div class="noticia-4">
-    <img src="./img/NOTICIAS/BEATLES-CANCION-PERFECTA-NOTICIA-4.avif" alt="BEATLES CANCION PERFECTA NOTICIA 4" title="BEATLES CANCION PERFECTA NOTICIA 4" class="foto-noticia4">
-    <div class="noticia-4text">
-    <h2>Cuál era la "canción perfecta" de The Beatles según George Harrison</h2>
-    <p> <a href="https://indiehoy.com/entretenimiento/cancion-perfecta-de-the-beatles-segun-george-harrison/" target="_blank">"Era simplemente una canción perfecta porque era muy simple. El mensaje era muy sencillo y fue una buena excusa para adentrarse directamente en esa cultura que estaba sucediendo y darles un tema musical”</a> </p>
+<div class="card" style="width: 23rem;">
+  <img src="./img/NOTICIAS/BEATLES-GET-BACK-NOTICIA-2.avif" class="card-img-top" alt="BEATLES-GET-BACK-NOTICIA-2" title="BEATLES-GET-BACK-NOTICIA-2">
+  <div class="card-body">
+    <h4 class="card-title">Get Back</h4>
+    <p class="card-text">Cuáles son las canciones que los Beatles aman tocar mientras componen algunos de sus grandes clásicos.</p>
+    <a href="https://www.lanacion.com.ar/espectaculos/musica/get-back-cuales-son-las-canciones-que-los-beatles-aman-tocar-mientras-componen-algunos-de-sus-nid09122021/" target="_blank" class="btn btn-primary">Visitar</a>
   </div>
-  </div>
+</div>
 
-  </section>
+<div class="card" style="width: 23rem;">
+  <img src="./img/NOTICIAS/BEATLES-NUEVA-CANCION-NOTICIA-3.webp" class="card-img-top" alt="BEATLES-NUEVA-CANCION-NOTICIA-3" title="BEATLES-NUEVA-CANCION-NOTICIA-3">
+  <div class="card-body">
+    <h4 class="card-title">Paul McCartney lo deja claro</h4>
+    <p class="card-text">"En la nueva canción de Los Beatles con inteligencia artificial todo es real"</p>
+    <a href="https://www.clarin.com/espectaculos/musica/paul-mccartney-deja-claro-nueva-cancion-beatles-inteligencia-artificial-real_0_0XHXlIj1NP.html" target="_blank" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
+<div class="card" style="width: 23rem;">
+  <img src="./img/NOTICIAS/BEATLES-CANCION-PERFECTA-NOTICIA-4.avif" class="card-img-top" alt="BEATLES-CANCION-PERFECTA-NOTICIA-4" title="BEATLES-CANCION-PERFECTA-NOTICIA-4">
+  <div class="card-body">
+    <h4 class="card-title">Cuál era la "canción perfecta" de The Beatles según George Harrison</h4>
+    <p class="card-text">"Era simplemente una canción perfecta porque era muy simple. El mensaje era muy sencillo y fue una buena excusa para adentrarse directamente en esa cultura que estaba sucediendo y darles un tema musical”</p>
+    <a href="https://indiehoy.com/entretenimiento/cancion-perfecta-de-the-beatles-segun-george-harrison/" target="_blank" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+
 </div>
 </main>
 <!--FIN NOTICIAS-->
@@ -112,6 +150,6 @@
 </footer>
 
 <!--FIN FOOTER-->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
