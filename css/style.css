@@ -56,24 +56,26 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
+    gap: 70px;
     width: 100px;
-    margin: 0 250px;
+    margin: 100px 250px 100px ;
 }
 
 .card {
     text-align: center;
+    padding: px;
 }
 
 
 /* FIN NOTICIAS */
 
 /* HISTORIA */
-
+main img{
+    width: 700px ;
+}
 
 
 /* FIN HISTORIA */
-
 
 
 /* DISCOGRAFIA */
@@ -391,26 +393,75 @@ h1 {
 /*FIN DISCOGRAFIA */
 
 
-/* VIDEOS */
+/*CANALES */
+
+.titulo-canales{
+    margin-top:2rem ;
+}
 
 
-/* FIN VIDEOS */
+.image-radio {
+    margin-left: 1rem;
+    width:250px ;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.text-radio {
+    margin-left:6.5rem;
+    
+}
+
+.radio-yellow{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-radio-yellow{
+    width: 250px;
+    border:2px solid rgb(0, 0, 0);
+}
+
+
+.img-hemeroteca{
+    margin-left: 5rem;
+    width: 250px;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.text-hemeroteca{
+    margin-left: 11rem;
+}
+
+.videos{
+    margin-top: 2rem;
+}
+
+iframe.guitarra{
+    width: 400px;
+}  
+
+/* FIN CANALES */
 
 
 /*CONTACTO*/
 
 .form-container {
+    width: auto;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 20px; 
     margin-left: 1rem;
     margin-bottom: 1.5rem;
+    display: flex;
 }
 
 
 .img-form { 
-    text-align: right; 
-    
+    width: 700px;
+    margin-left: 550px;
+    position: relative;
 }
 
 
