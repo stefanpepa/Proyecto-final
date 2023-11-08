@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Young+Serif&display=swap');
 
-
 /* RESET CSS */
 *{ 
     margin: 0; 
@@ -23,27 +22,18 @@ body ::selection{
 }
 /*FIN BODY */
 
-
 /* NAVEGACION */
-
 .foto-nav{
     height: 3rem;
 }
-
-
-
-
-
-
-
 /* CIERRE NAVEGACION */
-
 
 /* TITULOS */
 h1 {
     font-family:'Young Serif', serif;
     margin-top: 5rem;
 }
+/* FIN TITULOS */
 
 /* CARROUSEL */
 
@@ -51,7 +41,6 @@ h1 {
 /* FIN CARROUSEL */
 
 /* NOTICIAS */
-
 .noticias {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -90,14 +79,12 @@ main img{
     text-align: center;
 }
 
-.link-please:hover{
-    color: #515153;
-    opacity: .90;
-}
 
 .link-please{
     color: #222222;
     text-decoration: underline ;
+    &:hover{color: #515153;
+    opacity: .90;}
 }
 
 .please-item img {
@@ -113,14 +100,11 @@ main img{
     text-align: center;
 }
 
-.link-with:hover{
-    color: #515153;
-    opacity: .90;
-}
 
 .link-with{
     text-decoration: underline;
     color: #222222;
+    
 }
 
 .with-item img{

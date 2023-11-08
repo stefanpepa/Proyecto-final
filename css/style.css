@@ -1,3 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Young+Serif&display=swap");
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.root {
+  font-size: 16px;
+}
+
+/* BODY */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body ::selection {
+  background-color: #979797;
+}
+
+/*FIN BODY */
+/* NAVEGACION */
+.foto-nav {
+  height: 3rem;
+}
+
+/* CIERRE NAVEGACION */
+/* TITULOS */
+h1 {
+  font-family: "Young Serif", serif;
+  margin-top: 5rem;
+}
+
+/* CARROUSEL */
+/* FIN CARROUSEL */
+/* NOTICIAS */
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 70px;
+  width: 100px;
+  margin: 100px 250px 100px;
+}
+
+.card {
+  text-align: center;
+  padding: px;
+}
+
+/* FIN NOTICIAS */
+/* DISCOGRAFIA */
+.discografia {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  gap: 10px;
+}
+
+/* please please me */
+.please-item {
+  text-align: center;
+}
+.please-item img {
+  max-width: 100%;
+  height: auto;
+}
+.please-item img p {
+  margin: 0;
+}
+
+.link-please {
+  color: #222222;
+  text-decoration: underline;
+}
+.link-please:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* with the beatles */
+.with-item {
+  text-align: center;
+}
+.with-item img {
+  max-width: 100%;
+  height: auto;
+}
+.with-item img p {
+  margin: 0;
+}
+
+.link-with {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-with:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* a hard days night */
+.hard-item {
+  text-align: center;
+}
+.hard-item img {
+  max-width: 100%;
+  height: auto;
+}
+.hard-item p {
+  margin: 0;
+}
+
+.link-hard {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-hard:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* for sale */
+.for-item {
+  text-align: center;
+}
+.for-item img {
+  max-width: 100%;
+  height: auto;
+}
+.for-item p {
+  margin: 0;
+}
+
+.link-for {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-for:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* help */
+.help-item {
+  text-align: center;
+}
+.help-item img {
+  max-width: 100%;
+  height: auto;
+}
+.help-item p {
+  margin: 0;
+}
+
+.link-help {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-help:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* rubber soul */
+.rubber-item {
+  text-align: center;
+}
+.rubber-item img {
+  max-width: 100%;
+  height: auto;
+}
+.rubber-item p {
+  margin: 0;
+}
+
+.link-rubber {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-rubber:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* revolver */
+.revolver-item {
+  text-align: center;
+}
+.revolver-item img {
+  max-width: 100%;
+  height: auto;
+}
+.revolver-item p {
+  margin: 0;
+}
+
+.link-revolver {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-revolver:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* sgt peppers */
+.peppers-item {
+  text-align: center;
+}
+.peppers-item img {
+  max-width: 100%;
+  height: auto;
+}
+.peppers-item p {
+  margin: 0;
+}
+
+.link-peppers {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-peppers:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* magical mystery tour */
+.tour-item {
+  text-align: center;
+}
+.tour-item img {
+  max-width: 100%;
+  height: auto;
+}
+.tour-item p {
+  margin: 0;
+}
+
+.link-tour {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-tour:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* white album */
+.white-item {
+  text-align: center;
+}
+.white-item img {
+  max-width: 100%;
+  height: auto;
+}
+.white-item p {
+  margin: 0;
+}
+
+.link-white {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-white:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* yellow */
+.yellow-item {
+  text-align: center;
+}
+.yellow-item img {
+  max-width: 100%;
+  height: auto;
+}
+.yellow-item p {
+  margin: 0;
+}
+
+.link-yellow {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-yellow:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* abbey road */
+.abbey-item {
+  text-align: center;
+}
+.abbey-item img {
+  max-width: 100%;
+  height: auto;
+}
+.abbey-item p {
+  margin: 0;
+}
+
+.link-abbey {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-abbey:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+/* let it be */
+.let-item {
+  text-align: center;
+}
+.let-item img {
+  max-width: 100%;
+  height: auto;
+}
+.let-item p {
+  margin: 0;
+}
+
+.link-let {
+  text-decoration: underline;
+  color: #222222;
+}
+.link-let:hover {
+  color: #515153;
+  opacity: 0.9;
+}
+
+.let-container {
+  display: flex;
+}
+
+/*FIN DISCOGRAFIA */
+/*CANALES */
+.titulo-canales {
+  margin-top: 2rem;
+}
+
+.image-radio {
+  margin-left: 1rem;
+  width: 250px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.text-radio {
+  margin-left: 6.5rem;
+}
+
+.radio-yellow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image-radio-yellow {
+  width: 250px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.img-hemeroteca {
+  margin-left: 5rem;
+  width: 250px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.text-hemeroteca {
+  margin-left: 11rem;
+}
+
+.videos {
+  margin-top: 2rem;
+}
+
+iframe.guitarra {
+  width: 400px;
+}
+
+/* FIN CANALES */
+/*CONTACTO*/
+.form-container {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.img-form {
+  width: 700px;
+  margin-left: 550px;
+  position: relative;
+}
+
+/* FIN CONTACTO */
+/*  FOOTER */
+footer {
+  background-color: #979797;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+footer p {
+  margin-top: 10px;
+}
+
+.redes-sociales {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: large;
+}
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-info p {
+  margin: 1;
+  font-size: 15px;
+}
+
+/* FIN FOOTER */
 
 /*# sourceMappingURL=style.css.map */
