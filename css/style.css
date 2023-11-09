@@ -77,6 +77,7 @@ main img{
     display: grid;
     grid-template-columns: repeat(5, 2fr); 
     gap: 10px; 
+    padding: 1rem;
 }
 /* please please me */
 .please-item {
@@ -388,51 +389,54 @@ main img{
 
 /*CANALES */
 
+.canales a{
+    text-decoration: none;
+}
+
 .titulo-canales{
     margin-top:2rem ;
 }
 
-
 .image-radio {
-    margin-left: 1rem;
+    margin-left: 3rem;
     width:250px ;
     border:2px solid rgb(0, 0, 0);
 }
 
 .text-radio {
-    margin-left:6.5rem;
+    margin-left:9rem;
     
-}
-
-.radio-yellow{
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .image-radio-yellow{
     width: 250px;
     border:2px solid rgb(0, 0, 0);
+    margin-left: 3rem;
 }
 
+.text-radio-yellow{
+    margin-left: 5rem;
+}
 
 .img-hemeroteca{
-    margin-left: 5rem;
+    margin-left: 3rem;
     width: 250px;
     border:2px solid rgb(0, 0, 0);
 }
 
 .text-hemeroteca{
-    margin-left: 11rem;
+    margin-left: 9rem;
 }
 
 .videos{
     margin-top: 2rem;
+    margin-left: 0.5rem;
 }
 
 iframe.guitarra{
     width: 400px;
 }  
+
 
 /* FIN CANALES */
 
@@ -474,7 +478,6 @@ footer{
     margin: 0 auto;
 }
 
-
 .social-media a {
     color: #fff;
     text-decoration: none;
@@ -482,13 +485,9 @@ footer{
     font-size:large;
 }
 
-
 .social-media a:hover {
     text-decoration: underline;
 }
-
-
-
 
 footer p {
     margin-top: 10px;
@@ -499,7 +498,6 @@ footer p {
     height: auto;
 }
 
-
 .footer-info p {
     margin: 1;
     font-size: 15px;
@@ -507,3 +505,25 @@ footer p {
 
 
 /* FIN FOOTER */
+
+
+/* MEDIAS QUERIES */
+@media (max-width: 425px){
+.canales  iframe  {
+    width: auto;
+    height: auto;
+    }
+footer {
+    width: auto;
+    height: auto;
+}
+.discografia {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    
+}}
+
+@media (max-width: 768px){
+iframe.guitarra{
+    width: auto;
+}  }
