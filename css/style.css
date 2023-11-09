@@ -27,6 +27,10 @@ body ::selection {
 }
 
 /* CIERRE NAVEGACION */
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 /* TITULOS */
 h1 {
   font-family: "Young Serif", serif;
@@ -53,9 +57,16 @@ h1 {
 /* FIN NOTICIAS */
 /* DISCOGRAFIA */
 .discografia {
+<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(5, 2fr);
   gap: 10px;
+=======
+    display: grid;
+    grid-template-columns: repeat(5, 2fr); 
+    gap: 10px; 
+    padding: 1rem;
+>>>>>>> main
 }
 
 /* please please me */
@@ -337,6 +348,7 @@ h1 {
 
 /*FIN DISCOGRAFIA */
 /*CANALES */
+<<<<<<< HEAD
 .titulo-canales {
   margin-top: 2rem;
 }
@@ -374,11 +386,57 @@ h1 {
 
 .videos {
   margin-top: 2rem;
+=======
+
+.canales a{
+    text-decoration: none;
+}
+
+.titulo-canales{
+    margin-top:2rem ;
+}
+
+.image-radio {
+    margin-left: 3rem;
+    width:250px ;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.text-radio {
+    margin-left:9rem;
+    
+}
+
+.image-radio-yellow{
+    width: 250px;
+    border:2px solid rgb(0, 0, 0);
+    margin-left: 3rem;
+}
+
+.text-radio-yellow{
+    margin-left: 5rem;
+}
+
+.img-hemeroteca{
+    margin-left: 3rem;
+    width: 250px;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.text-hemeroteca{
+    margin-left: 9rem;
+}
+
+.videos{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+>>>>>>> main
 }
 
 iframe.guitarra {
   width: 400px;
 }
+
 
 /* FIN CANALES */
 /*CONTACTO*/
@@ -422,8 +480,18 @@ footer p {
   margin: 0 10px;
   font-size: large;
 }
+<<<<<<< HEAD
 .social-media a:hover {
   text-decoration: underline;
+=======
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+>>>>>>> main
 }
 
 .footer-logo img {
@@ -438,4 +506,28 @@ footer p {
 
 /* FIN FOOTER */
 
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+
+/* MEDIAS QUERIES */
+@media (max-width: 425px){
+.canales  iframe  {
+    width: auto;
+    height: auto;
+    }
+footer {
+    width: auto;
+    height: auto;
+}
+.discografia {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    
+}}
+
+@media (max-width: 768px){
+iframe.guitarra{
+    width: auto;
+}  }
+>>>>>>> main
