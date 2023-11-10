@@ -1,0 +1,20 @@
+/* MEDIAS QUERIES */
+@media (max-width: 425px){
+    .canales  iframe  {
+        width: auto;
+        height: auto;
+        }
+    footer {
+        width: auto;
+        height: auto;
+    }
+    .discografia {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr); 
+    
+    }}
+    
+    @media (max-width: 768px){
+    iframe.guitarra{
+        width: auto;
+    }  }
