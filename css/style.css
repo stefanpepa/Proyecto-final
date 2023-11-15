@@ -19,7 +19,7 @@ body ::selection {
 }
 
 .foto-nav {
-  height: 3rem;
+  height: 2rem;
 }
 
 h1 {
@@ -31,8 +31,8 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
   gap: 70px;
-  width: 100px;
   margin: 100px 250px 100px;
 }
 
@@ -45,7 +45,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(5, 2fr);
   gap: 10px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .please-item {
@@ -363,7 +363,7 @@ iframe.guitarra {
 }
 
 .form-container {
-  width: auto;
+  width: 45%;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -371,16 +371,18 @@ iframe.guitarra {
   margin-left: 1rem;
   margin-bottom: 1.5rem;
   display: flex;
+  position: relative;
+  bottom: 25rem;
 }
 
 .img-form {
-  width: 700px;
+  width: 800px;
   margin-left: 550px;
   position: relative;
 }
 
 footer {
-  background-color: #979797;
+  background-color: #000000;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -397,8 +399,20 @@ footer p {
 .social-media a {
   color: #fff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
   font-size: large;
+}
+.social-media a .icono-facebook {
+  background-color: #4267B2;
+}
+.social-media a .icono-twitter {
+  background-color: #1DA1F2;
+}
+.social-media a .icono-instagram {
+  background-color: #F56040;
+}
+.social-media a .icono-youtube {
+  background-color: #FF0000;
 }
 .social-media a:hover {
   text-decoration: underline;
@@ -407,6 +421,7 @@ footer p {
 .footer-logo img {
   width: 100px;
   height: auto;
+  background-color: #fff;
 }
 
 .footer-info p {
@@ -414,6 +429,12 @@ footer p {
   font-size: 15px;
 }
 
+@media (max-width: 650px) {
+  .discografia {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+  }
+}
 @media (max-width: 425px) {
   .canales iframe {
     width: auto;

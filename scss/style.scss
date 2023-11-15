@@ -8,28 +8,33 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 .root {
 	font-size: 16px;
 }
+
 body {
 	font-family: "Montserrat", sans-serif;
 	::selection {
 		background-color: #979797;
 	}
 }
+
 .foto-nav {
-	height: 3rem;
+	height: 2rem;
 }
+
 h1 {
 	font-family: "Young Serif", serif;
 	margin-top: 5rem;
 }
+// NOTICIAS
 .noticias {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
+	justify-content: center;
 	gap: 70px;
-	width: 100px;
 	margin: 100px 250px 100px;
 }
 
@@ -38,11 +43,12 @@ h1 {
 	padding: 1px;
 }
 
+// DISCOGRAFIA]
 .discografia {
 	display: grid;
 	grid-template-columns: repeat(5, 2fr);
 	gap: 10px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .please-item {
@@ -55,6 +61,7 @@ h1 {
 		}
 	}
 }
+
 .link-please {
 	color: #222222;
 	text-decoration: underline;
@@ -63,6 +70,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .with-item {
 	text-align: center;
 	img {
@@ -73,6 +81,7 @@ h1 {
 		}
 	}
 }
+
 .link-with {
 	text-decoration: underline;
 	color: #222222;
@@ -81,6 +90,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .hard-item {
 	text-align: center;
 	img {
@@ -91,6 +101,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-hard {
 	text-decoration: underline;
 	color: #222222;
@@ -99,6 +110,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .for-item {
 	text-align: center;
 	img {
@@ -109,6 +121,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-for {
 	text-decoration: underline;
 	color: #222222;
@@ -117,6 +130,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .help-item {
 	text-align: center;
 	img {
@@ -127,6 +141,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-help {
 	text-decoration: underline;
 	color: #222222;
@@ -135,6 +150,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .rubber-item {
 	text-align: center;
 	img {
@@ -145,6 +161,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-rubber {
 	text-decoration: underline;
 	color: #222222;
@@ -153,6 +170,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .revolver-item {
 	text-align: center;
 	img {
@@ -163,6 +181,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-revolver {
 	text-decoration: underline;
 	color: #222222;
@@ -171,6 +190,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .peppers-item {
 	text-align: center;
 	img {
@@ -181,6 +201,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-peppers {
 	text-decoration: underline;
 	color: #222222;
@@ -189,6 +210,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .tour-item {
 	text-align: center;
 	img {
@@ -199,6 +221,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-tour {
 	text-decoration: underline;
 	color: #222222;
@@ -207,6 +230,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .white-item {
 	text-align: center;
 	img {
@@ -217,6 +241,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-white {
 	text-decoration: underline;
 	color: #222222;
@@ -225,6 +250,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .yellow-item {
 	text-align: center;
 	img {
@@ -235,6 +261,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-yellow {
 	text-decoration: underline;
 	color: #222222;
@@ -243,6 +270,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .abbey-item {
 	text-align: center;
 	img {
@@ -253,6 +281,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-abbey {
 	text-decoration: underline;
 	color: #222222;
@@ -261,6 +290,7 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .let-item {
 	text-align: center;
 	img {
@@ -271,6 +301,7 @@ h1 {
 		margin: 0;
 	}
 }
+
 .link-let {
 	text-decoration: underline;
 	color: #222222;
@@ -279,10 +310,12 @@ h1 {
 		opacity: 0.9;
 	}
 }
+
 .let-container {
 	display: flex;
 }
-
+// FIN DISCOGRAFIA
+// CANALES
 .canales a{
     text-decoration: none;
 }
@@ -290,11 +323,13 @@ h1 {
 .titulo-canales {
 	margin-top: 2rem;
 }
+
 .image-radio {
 	margin-left: 3rem;
 	width: 250px;
 	border: 2px solid rgb(0, 0, 0);
 }
+
 .text-radio {
     margin-left:9rem;
 }
@@ -332,9 +367,10 @@ iframe {
 		width: 400px;
 	}
 }
+// CONTACTO
 
 .form-container {
-	width: auto;
+	width: 45%;
 	height: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -342,16 +378,19 @@ iframe {
 	margin-left: 1rem;
 	margin-bottom: 1.5rem;
 	display: flex;
+	position: relative;
+	bottom: 25rem;
 }
 
 .img-form {
-	width: 700px;
+	width: 800px;
 	margin-left: 550px;
 	position: relative;
 }
 
+// FOOTER
 footer {
-	background-color: #979797;
+	background-color: #000000;
 	color: #fff;
 	padding: 1rem;
 	text-align: center;
@@ -363,23 +402,40 @@ footer {
 .redes-sociales {
 	max-width: 900px;
 	margin: 0 auto;
+	
 }
 
 .social-media {
 	a {
 		color: #fff;
 		text-decoration: none;
-		margin: 0 10px;
+		margin: 0 15px;
 		font-size: large;
+		.icono-facebook{
+			background-color:#4267B2;
+		}
+		.icono-twitter{
+			background-color: #1DA1F2;
+		}
+		.icono-instagram{
+			background-color:#F56040
+		}
+		.icono-youtube{
+			background-color: #FF0000;
+		}
 		&:hover {
 			text-decoration: underline;
 		}
 	}
 }
+
+
+
 .footer-logo {
 	img {
 		width: 100px;
 		height: auto;
+		background-color: #fff;
 	}
 }
 .footer-info {
@@ -389,7 +445,13 @@ footer {
 	}
 }
 
-@media (max-width: 425px){
+
+	@media (max-width: 650px){
+	.discografia
+		{display: grid;
+        grid-template-columns: repeat(4, 2fr); }
+	}
+	@media (max-width: 425px){
     .canales  iframe  {
         width: auto;
         height: auto;
@@ -402,7 +464,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 2fr); 
     }}
-    @media (max-width: 768px){
+	
+
+	@media (max-width: 768px){
     iframe.guitarra{
         width: auto;
     }  }
+	
