@@ -15,7 +15,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 body ::selection {
-  background-color: #979797;
+  background-color: #8a8989;
 }
 
 .foto-nav {
@@ -24,7 +24,7 @@ body ::selection {
 
 h1 {
   font-family: "Young Serif", serif;
-  margin-top: 5rem;
+  margin: 4rem 0 0 0.5rem;
 }
 
 .noticias {
@@ -41,6 +41,11 @@ h1 {
   padding: 1px;
 }
 
+.carousel {
+  top: 2rem;
+  padding: 1rem;
+}
+
 .discografia {
   display: grid;
   grid-template-columns: repeat(5, 2fr);
@@ -48,268 +53,28 @@ h1 {
   padding: 0.5rem;
 }
 
-.please-item {
+.please-item, .let-item, .abbey-item, .yellow-item, .white-item, .tour-item, .peppers-item, .revolver-item, .rubber-item, .help-item, .for-item, .hard-item, .with-item {
   text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
-.please-item img {
+.please-item img, .let-item img, .abbey-item img, .yellow-item img, .white-item img, .tour-item img, .peppers-item img, .revolver-item img, .rubber-item img, .help-item img, .for-item img, .hard-item img, .with-item img {
   max-width: 100%;
   height: auto;
 }
-.please-item img p {
+.please-item img p, .let-item img p, .abbey-item img p, .yellow-item img p, .white-item img p, .tour-item img p, .peppers-item img p, .revolver-item img p, .rubber-item img p, .help-item img p, .for-item img p, .hard-item img p, .with-item img p {
   margin: 0;
 }
+.please-item :hover, .let-item :hover, .abbey-item :hover, .yellow-item :hover, .white-item :hover, .tour-item :hover, .peppers-item :hover, .revolver-item :hover, .rubber-item :hover, .help-item :hover, .for-item :hover, .hard-item :hover, .with-item :hover {
+  transform: scale(1.1);
+}
 
-.link-please {
+.link-please, .link-let, .link-abbey, .link-yellow, .link-white, .link-tour, .link-peppers, .link-revolver, .link-rubber, .link-help, .link-for, .link-hard, .link-with {
   color: #222222;
   text-decoration: underline;
 }
-.link-please:hover {
+.link-please:hover, .link-let:hover, .link-abbey:hover, .link-yellow:hover, .link-white:hover, .link-tour:hover, .link-peppers:hover, .link-revolver:hover, .link-rubber:hover, .link-help:hover, .link-for:hover, .link-hard:hover, .link-with:hover {
   color: #515153;
   opacity: 0.9;
-}
-
-.with-item {
-  text-align: center;
-}
-.with-item img {
-  max-width: 100%;
-  height: auto;
-}
-.with-item img p {
-  margin: 0;
-}
-
-.link-with {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-with:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.hard-item {
-  text-align: center;
-}
-.hard-item img {
-  max-width: 100%;
-  height: auto;
-}
-.hard-item p {
-  margin: 0;
-}
-
-.link-hard {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-hard:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.for-item {
-  text-align: center;
-}
-.for-item img {
-  max-width: 100%;
-  height: auto;
-}
-.for-item p {
-  margin: 0;
-}
-
-.link-for {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-for:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.help-item {
-  text-align: center;
-}
-.help-item img {
-  max-width: 100%;
-  height: auto;
-}
-.help-item p {
-  margin: 0;
-}
-
-.link-help {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-help:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.rubber-item {
-  text-align: center;
-}
-.rubber-item img {
-  max-width: 100%;
-  height: auto;
-}
-.rubber-item p {
-  margin: 0;
-}
-
-.link-rubber {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-rubber:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.revolver-item {
-  text-align: center;
-}
-.revolver-item img {
-  max-width: 100%;
-  height: auto;
-}
-.revolver-item p {
-  margin: 0;
-}
-
-.link-revolver {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-revolver:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.peppers-item {
-  text-align: center;
-}
-.peppers-item img {
-  max-width: 100%;
-  height: auto;
-}
-.peppers-item p {
-  margin: 0;
-}
-
-.link-peppers {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-peppers:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.tour-item {
-  text-align: center;
-}
-.tour-item img {
-  max-width: 100%;
-  height: auto;
-}
-.tour-item p {
-  margin: 0;
-}
-
-.link-tour {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-tour:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.white-item {
-  text-align: center;
-}
-.white-item img {
-  max-width: 100%;
-  height: auto;
-}
-.white-item p {
-  margin: 0;
-}
-
-.link-white {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-white:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.yellow-item {
-  text-align: center;
-}
-.yellow-item img {
-  max-width: 100%;
-  height: auto;
-}
-.yellow-item p {
-  margin: 0;
-}
-
-.link-yellow {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-yellow:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.abbey-item {
-  text-align: center;
-}
-.abbey-item img {
-  max-width: 100%;
-  height: auto;
-}
-.abbey-item p {
-  margin: 0;
-}
-
-.link-abbey {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-abbey:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.let-item {
-  text-align: center;
-}
-.let-item img {
-  max-width: 100%;
-  height: auto;
-}
-.let-item p {
-  margin: 0;
-}
-
-.link-let {
-  text-decoration: underline;
-  color: #222222;
-}
-.link-let:hover {
-  color: #515153;
-  opacity: 0.9;
-}
-
-.let-container {
-  display: flex;
 }
 
 .canales a {
@@ -320,7 +85,7 @@ h1 {
   margin-top: 2rem;
 }
 
-.image-radio {
+.image-radio, .img-hemeroteca {
   margin-left: 3rem;
   width: 250px;
   border: 2px solid rgb(0, 0, 0);
@@ -343,12 +108,6 @@ h1 {
   border: 2px solid rgb(0, 0, 0);
 }
 
-.img-hemeroteca {
-  width: 250px;
-  margin-left: 3rem;
-  border: 2px solid rgb(0, 0, 0);
-}
-
 .text-hemeroteca {
   margin-left: 9rem;
 }
@@ -364,19 +123,17 @@ iframe.guitarra {
 
 .form-container {
   width: 45%;
-  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-left: 1rem;
-  margin-bottom: 1.5rem;
   display: flex;
   position: relative;
   bottom: 25rem;
 }
 
 .img-form {
-  width: 800px;
+  width: 780px;
   margin-left: 550px;
   position: relative;
 }
@@ -447,6 +204,12 @@ footer p {
   .discografia {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
+  }
+}
+@media (max-width: 375px) {
+  .discografia {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 @media (max-width: 768px) {

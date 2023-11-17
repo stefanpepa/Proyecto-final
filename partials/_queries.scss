@@ -1,5 +1,11 @@
 /* MEDIAS QUERIES */
-@media (max-width: 425px){
+@media (max-width: 650px){
+	.discografia
+		{display: grid;
+        grid-template-columns: repeat(4, 2fr); }
+	}
+
+	@media (max-width: 425px){
     .canales  iframe  {
         width: auto;
         height: auto;
@@ -11,10 +17,15 @@
     .discografia {
         display: grid;
         grid-template-columns: repeat(3, 2fr); 
-    
     }}
-    
-    @media (max-width: 768px){
+	
+	@media (max-width: 375px){
+		.discografia
+		{display: grid;
+        grid-template-columns: repeat(2, 2fr); }
+	}
+	@media (max-width: 768px){
     iframe.guitarra{
         width: auto;
     }  }
+	
