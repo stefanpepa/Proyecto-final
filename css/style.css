@@ -28,17 +28,14 @@ h1 {
 }
 
 .noticias {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: center;
-  gap: 70px;
-  margin: 100px 250px 100px;
+  width: 100%;
+  padding: 100px;
 }
 
-.card {
-  text-align: center;
-  padding: 1px;
+.noticias-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .carousel {
@@ -55,7 +52,6 @@ h1 {
 
 .please-item, .let-item, .abbey-item, .yellow-item, .white-item, .tour-item, .peppers-item, .revolver-item, .rubber-item, .help-item, .for-item, .hard-item, .with-item {
   text-align: center;
-  transition: transform 0.3s ease-in-out;
 }
 .please-item img, .let-item img, .abbey-item img, .yellow-item img, .white-item img, .tour-item img, .peppers-item img, .revolver-item img, .rubber-item img, .help-item img, .for-item img, .hard-item img, .with-item img {
   max-width: 100%;
@@ -64,17 +60,18 @@ h1 {
 .please-item img p, .let-item img p, .abbey-item img p, .yellow-item img p, .white-item img p, .tour-item img p, .peppers-item img p, .revolver-item img p, .rubber-item img p, .help-item img p, .for-item img p, .hard-item img p, .with-item img p {
   margin: 0;
 }
-.please-item :hover, .let-item :hover, .abbey-item :hover, .yellow-item :hover, .white-item :hover, .tour-item :hover, .peppers-item :hover, .revolver-item :hover, .rubber-item :hover, .help-item :hover, .for-item :hover, .hard-item :hover, .with-item :hover {
-  transform: scale(1.1);
-}
 
 .link-please, .link-let, .link-abbey, .link-yellow, .link-white, .link-tour, .link-peppers, .link-revolver, .link-rubber, .link-help, .link-for, .link-hard, .link-with {
   color: #222222;
   text-decoration: underline;
+  transition: transform 0.3s ease-in-out;
 }
 .link-please:hover, .link-let:hover, .link-abbey:hover, .link-yellow:hover, .link-white:hover, .link-tour:hover, .link-peppers:hover, .link-revolver:hover, .link-rubber:hover, .link-help:hover, .link-for:hover, .link-hard:hover, .link-with:hover {
   color: #515153;
   opacity: 0.9;
+}
+.link-please :hover, .link-let :hover, .link-abbey :hover, .link-yellow :hover, .link-white :hover, .link-tour :hover, .link-peppers :hover, .link-revolver :hover, .link-rubber :hover, .link-help :hover, .link-for :hover, .link-hard :hover, .link-with :hover {
+  transform: scale(1.1);
 }
 
 .canales a {
@@ -122,20 +119,22 @@ iframe.guitarra {
 }
 
 .form-container {
-  width: 45%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-left: 1rem;
   display: flex;
-  position: relative;
-  bottom: 25rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.img-form {
-  width: 780px;
-  margin-left: 550px;
-  position: relative;
+.imagen-beatles-firmando {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.imagen-beatles-firmando-a {
+  border-radius: 50px;
 }
 
 footer {
@@ -186,10 +185,28 @@ footer p {
   font-size: 15px;
 }
 
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-404 h1 {
+  color: #d9534f;
+}
+.container-404 a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.container-404 a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 650px) {
   .discografia {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(3, 2fr);
   }
 }
 @media (max-width: 425px) {
@@ -203,13 +220,13 @@ footer p {
   }
   .discografia {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 @media (max-width: 375px) {
   .discografia {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 768px) {
