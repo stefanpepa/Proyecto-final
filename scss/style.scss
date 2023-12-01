@@ -20,6 +20,13 @@ body {
 	}
 }
 
+.historia {
+	p{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+}
+
 // NAVEGACION
 .foto-nav {
 	height: 2rem;
@@ -29,7 +36,7 @@ body {
 // TITTULOS
 h1 {
 	font-family: "Young Serif", serif;
-	margin: 4rem 0 0 0.5rem;
+	margin: 4rem 0 0 0.3rem;
 }
 
 // NOTICIAS
@@ -52,15 +59,15 @@ h1 {
 // DISCOGRAFIA
 .discografia {
 	display: grid;
-	grid-template-columns: repeat(5, 2fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: 10px;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .please-item {
 	text-align: center;
 	img {
-		max-width: 100%;
+		max-width: 95%;
 		height: auto;
 		p {
 			margin: 0;
@@ -150,6 +157,10 @@ h1 {
 .link-let {
 	@extend .link-please;
 }
+
+.spotify{
+	padding: 1rem;
+}
 // FIN DISCOGRAFIA
 
 // CANALES
@@ -165,6 +176,16 @@ h1 {
 	margin-left: 3rem;
 	width: 250px;
 	border: 2px solid rgb(0, 0, 0);
+}
+
+.canales 
+p{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+h3{
+	padding-left: 0.5rem;
 }
 
 .text-radio {
@@ -210,6 +231,9 @@ iframe {
     align-items: center; 
 	text-align: center;	
 	margin-bottom: 1rem;
+	button{
+		margin-top: 0.5rem;
+	}
 }
 
 .imagen-beatles-firmando{

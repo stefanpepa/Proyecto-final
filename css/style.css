@@ -18,13 +18,18 @@ body ::selection {
   background-color: #8a8989;
 }
 
+.historia p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .foto-nav {
   height: 2rem;
 }
 
 h1 {
   font-family: "Young Serif", serif;
-  margin: 4rem 0 0 0.5rem;
+  margin: 4rem 0 0 0.3rem;
 }
 
 .noticias {
@@ -45,16 +50,16 @@ h1 {
 
 .discografia {
   display: grid;
-  grid-template-columns: repeat(5, 2fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .please-item, .let-item, .abbey-item, .yellow-item, .white-item, .tour-item, .peppers-item, .revolver-item, .rubber-item, .help-item, .for-item, .hard-item, .with-item {
   text-align: center;
 }
 .please-item img, .let-item img, .abbey-item img, .yellow-item img, .white-item img, .tour-item img, .peppers-item img, .revolver-item img, .rubber-item img, .help-item img, .for-item img, .hard-item img, .with-item img {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 .please-item img p, .let-item img p, .abbey-item img p, .yellow-item img p, .white-item img p, .tour-item img p, .peppers-item img p, .revolver-item img p, .rubber-item img p, .help-item img p, .for-item img p, .hard-item img p, .with-item img p {
@@ -74,6 +79,10 @@ h1 {
   transform: scale(1.1);
 }
 
+.spotify {
+  padding: 1rem;
+}
+
 .canales a {
   text-decoration: none;
 }
@@ -86,6 +95,15 @@ h1 {
   margin-left: 3rem;
   width: 250px;
   border: 2px solid rgb(0, 0, 0);
+}
+
+.canales p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+h3 {
+  padding-left: 0.5rem;
 }
 
 .text-radio {
@@ -124,6 +142,9 @@ iframe.guitarra {
   align-items: center;
   text-align: center;
   margin-bottom: 1rem;
+}
+.form-container button {
+  margin-top: 0.5rem;
 }
 
 .imagen-beatles-firmando {
