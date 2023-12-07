@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Young+Serif&display=swap");
-@import url(/partials/_queries.scss);
-
+@import "./partials/extend";
+@import "./partials/footer";
 
 * {
 	margin: 0;
@@ -22,21 +22,24 @@ body {
 
 .historia {
 	p{
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: 0.2rem;
+	}
 }
 
 // NAVEGACION
 .foto-nav {
 	height: 2rem;
 }
-// FIN NAVEGACION
 
 // TITTULOS
 h1 {
 	font-family: "Young Serif", serif;
 	margin: 4rem 0 0 0.3rem;
+}
+h2{
+	margin-left: 0.5rem;
 }
 
 // NOTICIAS
@@ -48,6 +51,11 @@ h1 {
 	display: flex;
 	justify-content: center;
 	margin-top: 3rem;
+}
+
+// HISTORIA
+.img-final{
+	padding: 1rem;
 }
 
 // CARROUSEL
@@ -73,8 +81,8 @@ h1 {
 			margin: 0;
 		}
 	}
-
 }
+
 .link-please {
 	color: #222222;
 	text-decoration: underline;
@@ -85,78 +93,6 @@ h1 {
 	transition: transform 0.3s ease-in-out;
 	:hover{transform: scale(1.1);}
 }
-.with-item {
-	@extend .please-item;
-}
-.link-with {
-	@extend .link-please;
-}
-.hard-item {
-	@extend .please-item;
-}
-.link-hard {
-	@extend .link-please;
-}
-.for-item {
-	@extend .please-item;
-}
-.link-for {
-	@extend .link-please;
-}
-.help-item {
-	@extend .please-item;
-}
-.link-help {
-	@extend .link-please;
-}
-.rubber-item {
-	@extend .please-item;
-}
-.link-rubber {
-	@extend .link-please;
-}
-.revolver-item {
-	@extend .please-item;
-}
-.link-revolver {
-	@extend .link-please;
-}
-.peppers-item {
-	@extend .please-item;
-}
-.link-peppers {
-	@extend .link-please;
-}
-.tour-item {
-	@extend .please-item;
-}
-.link-tour {
-	@extend .link-please;
-}
-.white-item {
-	@extend .please-item;
-}
-.link-white {
-	@extend .link-please;
-}
-.yellow-item {
-	@extend .please-item;
-}
-.link-yellow {
-	@extend .link-please;
-}
-.abbey-item {
-	@extend .please-item;
-}
-.link-abbey {
-	@extend .link-please;
-}
-.let-item {
-	@extend .please-item;
-}
-.link-let {
-	@extend .link-please;
-}
 
 .spotify{
 	padding: 1rem;
@@ -164,8 +100,13 @@ h1 {
 // FIN DISCOGRAFIA
 
 // CANALES
-.canales a{
+.canales 
+	a{
     text-decoration: none;
+	}
+	p{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 .titulo-canales {
@@ -176,12 +117,6 @@ h1 {
 	margin-left: 3rem;
 	width: 250px;
 	border: 2px solid rgb(0, 0, 0);
-}
-
-.canales 
-p{
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
 }
 
 h3{
@@ -203,10 +138,6 @@ h3{
 .image-radio-yellow {
 	width: 250px;
 	border: 2px solid rgb(0, 0, 0);
-}
-
-.img-hemeroteca {
-	@extend .image-radio;
 }
 
 .text-hemeroteca {
@@ -240,62 +171,11 @@ iframe {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 1rem ;
+	padding: 1rem ;	
 }
 
 .imagen-beatles-firmando-a{
 	border-radius: 50px;
-}
-
-// FOOTER
-footer {
-	background-color: #000000;
-	color: #fff;
-	padding: 1rem;
-	text-align: center;
-	p {
-		margin-top: 10px;
-	}
-}
-.redes-sociales {
-	max-width: 900px;
-	margin: 0 auto;
-}
-.social-media {
-	a {
-		color: #fff;
-		text-decoration: none;
-		margin: 0 15px;
-		font-size: large;
-		.icono-facebook{
-			background-color:#4267B2;
-		}
-		.icono-twitter{
-			background-color: #1DA1F2;
-		}
-		.icono-instagram{
-			background-color:#F56040
-		}
-		.icono-youtube{
-			background-color: #FF0000;
-		}
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-}
-.footer-logo {
-	img {
-		width: 100px;
-		height: auto;
-		background-color: #fff;
-	}
-}
-.footer-info {
-	p {
-		margin: 1;
-		font-size: 15px;
-	}
 }
 
 // ERROR 404
@@ -314,34 +194,4 @@ footer {
 	text-decoration: underline;}
 }
 
-
-	@media (max-width: 650px){
-	.discografia
-		{display: grid;
-        grid-template-columns: repeat(3, 2fr); }
-	}
-
-	@media (max-width: 425px){
-    .canales  iframe  {
-        width: auto;
-        height: auto;
-        }
-    footer {
-        width: auto;
-        height: auto;
-    }
-    .discografia {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr); 
-    }}
-
-	@media (max-width: 375px){
-		.discografia
-		{display: grid;
-        grid-template-columns: repeat(1, 1fr); }
-
-	}
-	@media (max-width: 768px){
-    iframe.guitarra{
-        width: auto;
-    }  }
+@import "./partials/queries";
